@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerTrack - Job application tracker</title>
+  <meta name="description" content="Track internship and job applications, get deadline reminders, and compare your resume with a job description.">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <div id="app"><p class="boot">Loading CareerTrack...</p></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript><p class="boot">CareerTrack needs JavaScript. Please enable it in your browser.</p></noscript>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</body>
+</html>
