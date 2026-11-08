@@ -1,5 +1,9 @@
 # CareerTrack
 
+**Live demo:** https://careertrack-1xt7.onrender.com
+
+*Hosted on a free plan: the first load can take about a minute, and demo data may reset. Register a new account to try it.*
+
 A job and internship application tracker with resume skill matching, built for students.
 
 Add every application to one dashboard, see what is overdue or due soon, move applications across a
@@ -116,7 +120,7 @@ throttling (8 failed attempts per 10 minutes), request size limits, uploads proc
 
 ## Deploying (optional)
 
-Any host that runs Python works. Example for Render or similar:
+The live demo runs on Render's free plan. Any host that runs Python works. Settings for Render or similar:
 
 - Build command: `pip install -r requirements.txt gunicorn`
 - Start command: `gunicorn wsgi:app`
